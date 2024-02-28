@@ -1,0 +1,10 @@
+# to get fresh machine running batch
+1. scp requirements/* ec2:/home/ubuntu/
+2. ssh ec2
+3. chmod +x setup.sh
+4. ssh whereToSendData
+5. edit nomini_object_ids
+6. tmux
+7. ./setup.sh
+(8. hit y enter ~4x)
+(9. ctrl+b - d)
